@@ -218,7 +218,7 @@ public class GameController extends Application {
 		Node obj2 = MapBord.get(id2);
 
 		// Base cases
-		if (!(obj2.getColor().equals("w")) || obj1.getColor().equals("w")) {
+		if ((!(obj2.getColor().equals("w"))) || (obj1.getColor().equals("w"))) {
 			return false;
 		}
 
