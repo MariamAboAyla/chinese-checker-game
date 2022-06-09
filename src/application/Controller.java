@@ -21,7 +21,8 @@ public class Controller {
 		obj.start(stage);
 		obj.setDifficulty(2);
   
-	}	
+	}
+	
 	
 	@FXML
 	protected void hardClick() {
